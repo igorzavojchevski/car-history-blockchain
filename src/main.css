@@ -1,0 +1,156 @@
+body {
+    line-height: 2;
+    background-color: lavender;
+}
+
+.car {
+    background-color: unset;
+    border-width: 0px;
+    border-color: white;
+    border-style: solid;
+    height: 200px;
+    background-image:url('~/src/img/fiat.jpg');
+    /* background-image:url('~/src/img/skoda-superb.jpg'); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size: 100%;
+}
+
+.road-right {
+    border-right-width: 15px;
+    border-right-color: gray;
+}
+
+.road-left {
+    border-left-width: 15px;
+    border-left-color: gray;
+}
+
+.road-top {
+    border-top-width: 15px;
+    border-top-color: gray;
+}
+
+.road-bottom {
+    border-bottom-width: 15px;
+    border-bottom-color: gray;
+}
+
+.badge {
+    margin-top: 5px
+}
+
+.toolbar {
+    width:95%;
+    /* right: 15px; */
+    bottom: 5px;
+    position: absolute;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.header {
+    background-color: transparent;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.landing {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-top: 50px;
+}
+
+
+@media (min-width: 1200px)
+{
+    .container {
+        width: 80%;
+    }
+}
+
+/* .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  } */
+
+  .middle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: lavender;
+  }
+  
+  /* .car:hover {
+    opacity: 0.3;
+  }
+   */
+  .car:hover .middle {
+    opacity: 1;
+  }
+
+  .icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .middle_button {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+  }
+/*   
+  .fa-user:hover {
+    color: #eee;
+  } */
+
+  .carName {
+      font-size: 22px;
+      font-weight: bold;
+  }
+
+  .carKM {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .carBoughtFrom {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+.margin-bottom-10 {
+    margin-bottom: 10px
+}
+
+.margin-top-minus-85 {
+    margin-top: -85px;
+}
